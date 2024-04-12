@@ -1,0 +1,165 @@
+
+body {
+    /* background-color: #F2F9FE; */
+    margin: 0;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    margin-left: 58px;
+    margin-right: 58px;
+    z-index: 1;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: 560px;
+    width: 900px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 28px;
+    margin-bottom: 92px;
+}
+
+.header-props {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+h4 {
+    margin: 0;
+    margin-right: 40px;
+    color: #909193;
+    cursor: pointer;
+}
+
+h4:hover {
+    color: #111729;
+}
+
+input {
+    appearance: none;
+    position: absolute;
+}
+.toggle {
+    display: flex;
+    flex-direction: row;
+    background-color: #223344;
+    width: 54px;
+    height: 28px;
+    border-radius: 18px;
+    cursor: pointer;
+}
+
+.circle {
+    background-color: #F2F9FE;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin: 0;
+    margin-top: 2px;
+    margin-left: 28px;
+    z-index: 0;
+    transition: margin 200ms 20ms;
+}
+
+
+.moon-and-sun-container svg {
+    z-index: 1;
+}
+
+.sun {
+    margin-left: 2px;
+    z-index: 2;
+}
+
+.moon {
+    margin-right: 2px;
+    z-index: 1;
+}
+
+.moon-and-sun-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.moon-and-sun-container svg {
+    margin-top: 2px;
+}
+
+h1 {
+    font-size: 60px;
+    color: #223344;
+    margin: 0;
+    margin-top: 12px;
+    margin-bottom: 32px;
+    font-weight: bold;
+}
+.toggle input:checked + h1 {
+    color: white;
+}
+
+.body {
+    display: flex;
+    flex-direction: row;
+}
+
+.buttons {
+    margin: 0;
+    margin-top: 22px;
+    margin-bottom: 40px;
+}
+
+button {
+    padding: 16px 32px;
+    margin: 0;
+    margin-right: 32px;
+    background-color: #2A4DD0;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+
+a {
+    color: #2A4DD0;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.checks-container {
+    display: flex;
+}
+
+.checks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.checks svg {
+    margin: 0;
+    margin-right: 8px;
+}
+
+.checks p {
+    margin: 0;
+    margin-right: 20px;
+    color: #909193;
+    font-size: 14px;
+    font-weight: 500;
+}
